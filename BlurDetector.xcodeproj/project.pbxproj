@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEFC0121EB6ABF5000F0E02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFC0111EB6ABF5000F0E02 /* AppDelegate.swift */; };
+		FAEFC0141EB6ABF5000F0E02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFC0131EB6ABF5000F0E02 /* ViewController.swift */; };
+		FAEFC0171EB6ABF5000F0E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEFC0151EB6ABF5000F0E02 /* Main.storyboard */; };
+		FAEFC0191EB6ABF5000F0E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEFC0181EB6ABF5000F0E02 /* Assets.xcassets */; };
+		FAEFC01C1EB6ABF5000F0E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEFC01A1EB6ABF5000F0E02 /* LaunchScreen.storyboard */; };
+		FAEFC02E1EB6AC6F000F0E02 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEFC0291EB6AC40000F0E02 /* GPUImage.framework */; };
+		FAEFC02F1EB6AC6F000F0E02 /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAEFC0291EB6AC40000F0E02 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAEFC0281EB6AC40000F0E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEFC0231EB6AC40000F0E02 /* GPUImage-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCD1B1251C66A262001F2BDC;
+			remoteInfo = GPUImage;
+		};
+		FAEFC02A1EB6AC40000F0E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEFC0231EB6AC40000F0E02 /* GPUImage-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCD1B12F1C66A262001F2BDC;
+			remoteInfo = GPUImageTests;
+		};
+		FAEFC02C1EB6AC5F000F0E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEFC0231EB6AC40000F0E02 /* GPUImage-iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD1B1241C66A262001F2BDC;
+			remoteInfo = GPUImage;
+		};
+		FAEFC0301EB6AC6F000F0E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEFC0231EB6AC40000F0E02 /* GPUImage-iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD1B1241C66A262001F2BDC;
+			remoteInfo = GPUImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAEFC0321EB6AC6F000F0E02 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FAEFC02F1EB6AC6F000F0E02 /* GPUImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAEFC00E1EB6ABF5000F0E02 /* BlurDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFC0111EB6ABF5000F0E02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEFC0131EB6ABF5000F0E02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAEFC0161EB6ABF5000F0E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAEFC0181EB6ABF5000F0E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEFC01B1EB6ABF5000F0E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAEFC01D1EB6ABF5000F0E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEFC0231EB6AC40000F0E02 /* GPUImage-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "GPUImage-iOS.xcodeproj"; path = "GPUImage/GPUImage-iOS.xcodeproj"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEFC00B1EB6ABF5000F0E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFC02E1EB6AC6F000F0E02 /* GPUImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEFC0051EB6ABF5000F0E02 = {
+			isa = PBXGroup;
+			children = (
+				FAEFC0101EB6ABF5000F0E02 /* BlurDetector */,
+				FAEFC00F1EB6ABF5000F0E02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEFC00F1EB6ABF5000F0E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFC00E1EB6ABF5000F0E02 /* BlurDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEFC0101EB6ABF5000F0E02 /* BlurDetector */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFC0111EB6ABF5000F0E02 /* AppDelegate.swift */,
+				FAEFC0131EB6ABF5000F0E02 /* ViewController.swift */,
+				FAEFC0151EB6ABF5000F0E02 /* Main.storyboard */,
+				FAEFC0181EB6ABF5000F0E02 /* Assets.xcassets */,
+				FAEFC01A1EB6ABF5000F0E02 /* LaunchScreen.storyboard */,
+				FAEFC01D1EB6ABF5000F0E02 /* Info.plist */,
+				FAEFC0231EB6AC40000F0E02 /* GPUImage-iOS.xcodeproj */,
+			);
+			path = BlurDetector;
+			sourceTree = "<group>";
+		};
+		FAEFC0241EB6AC40000F0E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFC0291EB6AC40000F0E02 /* GPUImage.framework */,
+				FAEFC02B1EB6AC40000F0E02 /* GPUImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEFC00D1EB6ABF5000F0E02 /* BlurDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEFC0201EB6ABF5000F0E02 /* Build configuration list for PBXNativeTarget "BlurDetector" */;
+			buildPhases = (
+				FAEFC00A1EB6ABF5000F0E02 /* Sources */,
+				FAEFC00B1EB6ABF5000F0E02 /* Frameworks */,
+				FAEFC00C1EB6ABF5000F0E02 /* Resources */,
+				FAEFC0321EB6AC6F000F0E02 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEFC02D1EB6AC5F000F0E02 /* PBXTargetDependency */,
+				FAEFC0311EB6AC6F000F0E02 /* PBXTargetDependency */,
+			);
+			name = BlurDetector;
+			productName = BlurDetector;
+			productReference = FAEFC00E1EB6ABF5000F0E02 /* BlurDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEFC0061EB6ABF5000F0E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = alex;
+				TargetAttributes = {
+					FAEFC00D1EB6ABF5000F0E02 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6A7K9VGHXX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAEFC0091EB6ABF5000F0E02 /* Build configuration list for PBXProject "BlurDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEFC0051EB6ABF5000F0E02;
+			productRefGroup = FAEFC00F1EB6ABF5000F0E02 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FAEFC0241EB6AC40000F0E02 /* Products */;
+					ProjectRef = FAEFC0231EB6AC40000F0E02 /* GPUImage-iOS.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FAEFC00D1EB6ABF5000F0E02 /* BlurDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FAEFC0291EB6AC40000F0E02 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = FAEFC0281EB6AC40000F0E02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FAEFC02B1EB6AC40000F0E02 /* GPUImageTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests.xctest;
+			remoteRef = FAEFC02A1EB6AC40000F0E02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEFC00C1EB6ABF5000F0E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFC01C1EB6ABF5000F0E02 /* LaunchScreen.storyboard in Resources */,
+				FAEFC0191EB6ABF5000F0E02 /* Assets.xcassets in Resources */,
+				FAEFC0171EB6ABF5000F0E02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEFC00A1EB6ABF5000F0E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFC0141EB6ABF5000F0E02 /* ViewController.swift in Sources */,
+				FAEFC0121EB6ABF5000F0E02 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAEFC02D1EB6AC5F000F0E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			targetProxy = FAEFC02C1EB6AC5F000F0E02 /* PBXContainerItemProxy */;
+		};
+		FAEFC0311EB6AC6F000F0E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			targetProxy = FAEFC0301EB6AC6F000F0E02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAEFC0151EB6ABF5000F0E02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEFC0161EB6ABF5000F0E02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAEFC01A1EB6ABF5000F0E02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEFC01B1EB6ABF5000F0E02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEFC01E1EB6ABF5000F0E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEFC01F1EB6ABF5000F0E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEFC0211EB6ABF5000F0E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A7K9VGHXX;
+				INFOPLIST_FILE = BlurDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.BlurDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAEFC0221EB6ABF5000F0E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A7K9VGHXX;
+				INFOPLIST_FILE = BlurDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.BlurDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEFC0091EB6ABF5000F0E02 /* Build configuration list for PBXProject "BlurDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFC01E1EB6ABF5000F0E02 /* Debug */,
+				FAEFC01F1EB6ABF5000F0E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEFC0201EB6ABF5000F0E02 /* Build configuration list for PBXNativeTarget "BlurDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFC0211EB6ABF5000F0E02 /* Debug */,
+				FAEFC0221EB6ABF5000F0E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEFC0061EB6ABF5000F0E02 /* Project object */;
+}

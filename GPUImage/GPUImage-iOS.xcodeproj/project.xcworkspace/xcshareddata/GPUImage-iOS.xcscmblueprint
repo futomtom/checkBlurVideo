@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0A10A05FA17EF4CD5DD9E00FF750F0422B9488CE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0A10A05FA17EF4CD5DD9E00FF750F0422B9488CE" : 9223372036854775807,
+    "5058F0650E605FA4EF0C3C5DC3DC2ECE16D4D8DB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9082AB3E-1B6B-49E6-9447-0B0AA27F6E03",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0A10A05FA17EF4CD5DD9E00FF750F0422B9488CE" : "GPUImage2\/",
+    "5058F0650E605FA4EF0C3C5DC3DC2ECE16D4D8DB" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GPUImage-iOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "framework\/GPUImage-iOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BradLarson\/GPUImage2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A10A05FA17EF4CD5DD9E00FF750F0422B9488CE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/futomtom\/futomtom.github.io",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5058F0650E605FA4EF0C3C5DC3DC2ECE16D4D8DB"
+    }
+  ]
+}
