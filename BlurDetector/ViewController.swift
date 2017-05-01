@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     }()
     var saturationFilter = SaturationAdjustment()
     let laplacianFilter = Laplacian()
+    let sobelEdge = ThresholdSobelEdgeDetection()
     
     let blendFilter = AlphaBlend()
     var camera:Camera!
@@ -30,11 +31,15 @@ class ViewController: UIViewController {
         
         do {
             saturationFilter.saturation = 0
+            sobelEdge.threshold = 0.5
+            
             camera = try Camera(sessionPreset:AVCaptureSessionPreset640x480)
             camera.runBenchmark = false
             camera.delegate = self
            
-            camera --> saturationFilter --> laplacianFilter --> blendFilter  --> renderView
+        camera --> saturationFilter --> laplacianFilter --> blendFilter  --> renderView
+          //sober edge
+         //    camera --> sobelEdge --> blendFilter  --> renderView
      /*     should NOT apply filter in preview ,  Since checkblur Agorithm does not work. so I apply filter here
             camera  --> blendFilter  --> renderView
        */
@@ -93,9 +98,9 @@ extension ViewController: CameraDelegate {
         for y in 0..<high {
             for x in 0..<width {
                 let pixelIndex = ((width * y) + x) * bytesPerPixel
-                print (data[pixelIndex + 0],data[pixelIndex + 1],data[pixelIndex + 2] )
+              //  print (data[pixelIndex + 0],data[pixelIndex + 1],data[pixelIndex + 2] )
                 let pixel  = Int(data[pixelIndex + 0]) * 256 * 256  + Int(data[pixelIndex + 1]) * 256 + Int(data[pixelIndex + 2])
-                print(pixel)
+              //  print(pixel)
                 maxLap = pixel > maxLap ? pixel :maxLap
             }
         }
